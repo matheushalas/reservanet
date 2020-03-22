@@ -73,15 +73,18 @@
                         <a href="{{ route('login') }}">Login</a>
 
                         @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
+                            <a href="{{ route('register') }}">Registro</a>
                         @endif
                     @endauth
                 </div>
             @endif
 
+        
+
             <div class="content">
+            <div align="center"><img src="http://www.capitalrealty.com.br/wp-content/uploads/2016/06/icone-restaurante-branco.png"></div>
                 <div class="title m-b-md">
-                    Laravel
+                    Reserva NET
                 </div>
 
                 <div class="links">
